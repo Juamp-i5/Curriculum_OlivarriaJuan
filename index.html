@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="estilos/estiloGeneral.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="menu-principal">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="interests.html">Intereses</a></li>
@@ -17,15 +18,21 @@
     </header>
     <main>
       <h1>Juan Pablo Olivarría Covarrubias</h1>
-      <img src="img/yo.jpg" alt="Foto de Juan Pablo Olivarría Covarrubias" />
-      <div>
+      <div class="contenedor-foto">
+        <img
+          id="foto-perfil"
+          src="img/yo.jpg"
+          alt="Foto de Juan Pablo Olivarría Covarrubias"
+        />
+      </div>
+      <div id="contacto">
         <a href="https://github.com/Juamp-i5">Github</a>
         <a href="mailto:juan.olivarria252886@potros.itson.edu.mx"
           >Correo electrónico</a
         >
       </div>
     </main>
-    <section>
+    <section class="seccion-contenido">
       <h2>Biografía</h2>
       <p>
         Hola, mi nombre es Juan Pablo Olivarría Covarrubias, tengo 20 años y soy
@@ -35,7 +42,7 @@
         aprender y superarme cada día.
       </p>
     </section>
-    <section>
+    <section class="seccion-contenido">
       <h2>Experiencia laboral</h2>
       <p>
         He trabajado como desarrollador web en una empresa local, donde adquirí
@@ -44,7 +51,7 @@
         y diseño web.
       </p>
     </section>
-    <section>
+    <section class="seccion-contenido">
       <h2>Educación</h2>
       <p>
         Actualmente estoy cursando la carrera de Ingeniería en Software en el
@@ -52,11 +59,11 @@
         Preparatoria CBTIS 37, donde me gradué con un buen promedio.
       </p>
     </section>
-    <section>
+    <section class="seccion-contenido">
       <h2>Idiomas</h2>
       <ul>
-        <li>Español: Nativo</li>
-        <li>Inglés: Avanzado(C1)</li>
+        <li>Español: <span class="texto-importante">Nativo</span></li>
+        <li>Inglés: <span class="texto-importante">Avanzado(C1)</span></li>
       </ul>
     </section>
     <footer>
